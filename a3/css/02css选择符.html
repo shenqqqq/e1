@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*1.类型选择符*/
+			p{
+				color: red;
+			}
+			/*2、类选择符*/
+			/*.h{
+				color: blue;
+			}
+			.hh{
+				background: gray;
+			}*/
+			/*3、id选择符,具有唯一性*/
+			#box{
+				color: blueviolet;
+			}
+			#box1{
+				background: gold;
+			}
+			/*4.通配符,用来重置样式*/
+			*{
+				font-size: 16px;
+			}
+			/*5.群组选择符*/
+			.h,h3,h4,h5{
+				color: blue;
+				background: gray;
+			}
+			/*6.后代选择符*/
+			.obox span{
+				color: blue;
+			}
+			
+			/*7.子选择符*/
+			.obox>span{
+				color: green;
+			}
+			
+			/*8.伪类选择符*/
+			/*link:初始状态*/
+			a:link{
+				color: black;
+			}
+			/*visited访问后的状态*/
+			a:visited{
+				color: green;
+			}
+			/*鼠标悬浮在上方时的状态*/
+			a:hover{
+				color: red;
+			}
+			/*鼠标按下时的状态*/
+			a:active{
+				color: gold;
+			}
+			
+			/*鼠标悬浮在上方时的状态*/
+			b:hover{
+				color: red;
+			}
+			/*鼠标按下时的状态*/
+			b:active{
+				color: gold;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<p>hello word</p>
+		<h1 class="h hh">哈哈感觉</h1>
+		<h1 class="h hh">哈哈感觉</h1>
+		<h2 id="box">事件扩大和空间大回馈</h2>
+		<h2 id="box1">事件扩大和空间大回馈</h2>
+		<h3>但是附近设立考点附近开了</h3>
+		<h4>接待沙发客接待沙发客家</h4>
+		<h5>接待沙发客接待沙发客家</h5>
+		<h1>
+			<span>父元素，同辈元素，子元素，后代元素</span>
+			<p>
+				<i>倾斜</i>
+			</p>
+		</h1>
+		<a href="#">baidu</a>
+		<br />
+		<b>加粗</b>
+		<div class="obox">
+			<h1>
+				<span>文本</span>
+			</h1>
+			<p>
+				<u>下划线</u>
+				<span>文本2</span>
+			</p>
+			<span>文本3</span>
+		</div>
+		
+	</body>
+</html>

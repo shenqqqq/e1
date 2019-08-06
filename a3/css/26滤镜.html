@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.img1{
+				width: 500px;
+				-webkit-filter:blur(5px);
+				filter: blur(5px);
+				transition: all 1s;
+			}
+			.img1:hover{
+				-webkit-filter:blur(0px);
+				filter: blur(0px);
+			}
+			.img2{
+				width: 200px;
+				height: 200px;
+				border: solid 1px black;
+				margin: 50px;
+				box-shadow: 0px 0px 5px 5px red;
+				border-radius: 50%;
+			}
+			.img3{
+				width: 200px;
+				height: 200px;
+				border: solid 1px black;
+				margin: 50px;
+				border-radius: 50%;
+				-webkit-filter: drop-shadow(0px 0px 5px #ccc) ;
+				filter: drop-shadow(0px 0px 5px red) ;
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1"  src="../个人摄影师/img/ia_200000001.jpg" />
+		<img class="img2" src="../个人摄影师/img/ia_200000000.png" />
+		<img class="img3" src="../个人摄影师/img/ia_200000000.png" />
+	</body>
+</html>

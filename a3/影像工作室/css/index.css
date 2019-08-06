@@ -1,0 +1,43 @@
+/*重置样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+body{
+	height: 2500px;
+	background: url(../img/ia_100000004.jpg) no-repeat 0px 0px/100% 100%;
+	background-attachment: fixed;
+}
+.box{
+	width: 100%;
+	height: 30%;
+	background: url(../img/ia_100000000.png) no-repeat center center;
+	
+}
+.box1{
+	width: 100%;
+	height:20%;
+	background-color: #000000;
+}
+.box2{
+	width: 100%;
+	height:20%;
+	
+}
+.box3{
+	width: 100%;
+	height:15%;
+	background-color: #000000;
+}
+.box4{
+	width: 100%;
+	height:5%;
+	
+}
+h1{color:white;}
+h2{color:white;}
+li{margin-left:180px;padding:30px; float:left;list-style: none;line-height:90px}
+a:link{color: white;text-decoration:none}

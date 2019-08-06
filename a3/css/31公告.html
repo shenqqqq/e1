@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.obox{
+				height: 30px;
+				background: #999;
+				line-height: 30px;
+				position: relative;
+				overflow: hidden;
+			}
+			.obox2{
+				height: 30px;
+				background: paleturquoise;
+				line-height: 30px;
+				position: relative;
+				overflow: hidden;
+				margin-top: 100px;
+			}
+			.box1{
+				line-height: 20px;
+				position: absolute;
+				left: 80px;
+				top: -10px;
+				animation: mybox1 9s infinite;
+			}
+			@keyframes mybox1{
+				0%{top: -10px;}
+				20%{top: -10px;}
+				40%{top: -46px;}
+				60%{top: -46px;}
+				80%{top: -83px;}
+				100%{top: -83px;}
+			}
+			.box2{
+				line-height: 20px;
+				position: absolute;
+				left: 80px;
+				top: -10px;
+				animation: mybox2 9s infinite;
+			}
+			@keyframes mybox2{
+				0%{top: -10px;}
+				16%{top: -46px;}
+				32%{top: -46px;}
+				48%{top: -83px;}
+				64%{top: -83px;}
+				80%{top: -118px;}
+				100%{top: -118px;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="obox">
+			<span>最新公告:</span>
+			<div class="box1">
+				<p>ID好久发货的季后赛的肌肤都是</p>
+				<p>个防火规范党和国家的风格很疯狂打击</p>
+				<p>空间的划分的设计开发活动课时间花费的时间</p>
+			</div>
+		</div>
+		<div class="obox2">
+			<span>最新公告:</span>
+			<div class="box2">
+				<p>ID好久发货的季后赛的肌肤都是</p>
+				<p>个防火规范党和国家的风格很疯狂打击</p>
+				<p>空间的划分的设计开发活动课时间花费的时间</p>
+				<p>ID好久发货的季后赛的肌肤都是</p>
+			</div>
+		</div>
+	</body>
+</html>
